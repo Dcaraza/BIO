@@ -1,8 +1,9 @@
 <!doctype html>
 <html>
-        <head>
-<Title>About me</Title>
-          <style>
+    <Title>
+        About me
+    </Title>
+    <head>
             h1 {
                 /* Put a 15-pixel margin at the bottom of the heading. */
                 margin-bottom: 15px;
@@ -50,14 +51,14 @@
               
               p {
                 text-align: center;
-                font-size: 30px;
+                font-size: 20px;
                 /* Bold the text. */
                 font-weight: bold;
               }
               /* All unordered list tags */
               
               ul {
-                text-align: justify;
+                text-align: center;
                 font-size: 35px;
                 /* Give an element a solid border. */
                 border-style: solid;
@@ -67,18 +68,26 @@
                 /* More info here: http://www.w3schools.com/cssref/pr_list-style-position.asp */
                 list-style-position: inside;
               }
-            </style>
+
+
+
     </head>
-   
     <body>
-        <h1>Student Bio</h1><br>
-        <h2>Devin Caraza</h2><br> 
-           <img src=https://d2ojpxxtu63wzl.cloudfront.net/static/28545f7051ff042c45425b8eb48c6e20_d168d71f34a4cc7b2e26e94c0371166ed0a78b4aab2fa123a4f10b89582da180>      
-        <p>all about me</p><br>
+        <header>
+               <h1>Student Bio</h1><br>
+        </header>
+        <section>
+             <h2>Devin Caraza</h2><br> 
+             <img src=https://d2ojpxxtu63wzl.cloudfront.net/static/28545f7051ff042c45425b8eb48c6e20_d168d71f34a4cc7b2e26e94c0371166ed0a78b4aab2fa123a4f10b89582da180>      
+       <p>all about me</p>
+        </section>
+       
+        <section> 
+    <br>
         <h1>Contact me</h1><br>
         <ul>
-                <li><strong>Email: <a href = "Dcaraza@gmail.com"> Devin Caraza</a></strong></li>
-                <li>Phone #: 786-512-1053 </li>
+                <li><strong>email: <a href = "Dcaraza@gmail.com" a> Devin Caraza</strong></li>
+                 <li>Phone #: 786-512-1053 </li>
         </ul>
             
     </Body>
